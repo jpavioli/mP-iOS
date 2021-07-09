@@ -6,7 +6,7 @@ In AppDelegate.swift, be sure to include valid iOS Platform Key and Secret from 
 
 ## Testing Push Notifications
 In terminal, navigate to the main directory, then run the following command
-> xcrun simctl push booted testPush.apn 
+> xcrun simctl push booted testPush.apn <
 This will send the request body in testPush.apn (from the main directory) to the booted simulator.  
 
 ## Common Issues
